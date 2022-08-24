@@ -30,10 +30,6 @@ li {
     padding: 20px;
 }
 
-.header {
-    width: 100%;
-}
-
 .logo-link {
     display: block;
     padding: 0 10px;
@@ -122,6 +118,7 @@ li {
 .btn-wrapper {
     display: flex;
     align-items: center;
+    padding-left: 5px;
 }
 
 .btn:hover {
@@ -249,6 +246,8 @@ li {
     .additional-information {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        padding: 10px;
     }
 
 
@@ -258,6 +257,18 @@ li {
     .header-inner {
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
+    }
+    .logo-wrapper{
+        flex-direction: column;
+        margin: 10px;
+        text-align: center;
+    }
+    .logo__pic{
+        padding: 0;
+    }
+    .logo-link{
+        padding: 10px;
     }
 
     .nav_list-el {
@@ -273,11 +284,15 @@ li {
     .logo-wrapper {
         flex-wrap: wrap;
         justify-content: center;
+        text-align: center;
+    }
+    .header-inner{
+        flex-direction: column;
     }
 }
 
 
-@media (max-width: 1920px) {
+@media (max-width: 2734px) {
     .burger-btn {
         display: none;
     }
@@ -286,9 +301,17 @@ li {
 @media (max-width: 479px) {
     .burger-btn {
         display: block;
+        padding-left: 60px;
     }
 
     .nav__link {
         display: none;
+    }
+    .nav{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .search_wrapper{
+        padding-right: 10px;
     }
 }
