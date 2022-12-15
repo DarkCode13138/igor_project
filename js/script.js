@@ -721,15 +721,15 @@ addEventListener('click', function () {
 })
 
 
-const num = function (number) {
-    return number + 4
-}
-console.log(num(2))
-
-console.log(funk1('he'))
-
-function funk1(string) {
-    return string + 'llo'
-}
+// const num = function (number) {
+//     return number + 4
+// }
+// console.log(num(2))
+//
+// console.log(funk1('he'))
+//
+// function funk1(string) {
+//     return string + 'llo'
+// }
 
 
