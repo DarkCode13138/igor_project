@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    position: relative;
+    background: url("../img/pic.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.column{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    flex: 1 ;
+
+
+}
+
+.text-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 63px;
+    font-weight:bold;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.text {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
